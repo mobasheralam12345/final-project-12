@@ -3,7 +3,7 @@ const Secret = () => {
     <div className="">
       <h2>Secret Things</h2>
       <div>
-        Natural beauty is the breathtaking charm of the world around us,
+        Hi,Natural beauty is the breathtaking charm of the world around us,
         untouched and unspoiled by human intervention. It encompasses lush green
         forests, majestic mountains, serene rivers, vibrant flowers, and the
         endless expanse of the sky. From the soothing sound of ocean waves to
