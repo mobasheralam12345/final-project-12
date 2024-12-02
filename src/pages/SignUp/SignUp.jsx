@@ -56,14 +56,14 @@ const SignUp = () => {
     return (
         <>
             <Helmet>
-                <title>Bistro Boss || Sign Up</title>
+                <title>Foodies Hub || Sign Up</title>
             </Helmet>
-            <div className=" min-h-screen bg-base-200 ">
-                <div className="hero-content flex-col ">
+            <div className="  bg-base-200 ">
+                <div className="hero-content flex-col w-full mx-auto">
                     <div className="text-center lg:text-left">
                         <h1 className="text-4xl font-bold text-center">Sign Up</h1>
                     </div>
-                    <div className="card  w-full max-w-sm shadow-2xl bg-base-100">
+                    <div className="card  w-1/2 shadow-2xl bg-base-100">
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                             {/* Name Section */}
                             <div className="form-control">
@@ -106,12 +106,17 @@ const SignUp = () => {
                                 <input className="btn btn-primary text-xl font-semibold" type="submit" value='Sign Up' />
                             </div>
                         </form>
+                        <div className="divider">
+                            
+                        </div>
                         <div>
-                            <h2 className="mb-6 px-4 text-center"> Already have an account please <Link to='/login'><span className="text-xl font-bold text-red-400">Login</span></Link></h2>
+                            <h2 className="mb-6 px-4 text-center text-lg mx-auto items-center"> Already have an account ? please <Link to='/login'><span className="text-xl font-bold text-red-400">Login</span></Link></h2>
                         </div>
                     </div>
                 </div>
-                <SocialLogin></SocialLogin>
+                <div className="text-xl font-extralight text-center hover:to-blue-700">
+                   <SocialLogin></SocialLogin>
+                </div>
             </div></>
 
     );

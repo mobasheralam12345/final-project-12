@@ -20,7 +20,7 @@ const Menu = () => {
         <div>
             {/* Dynamic title set korte: Helmet  */}
             <Helmet>
-                <title>Bistro Boss Restaurant || Menu</title>
+                <title>Foodies Hub|| Menu</title>
             </Helmet>
             <div >
                 <SectionTitle
